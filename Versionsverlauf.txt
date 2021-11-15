@@ -1,0 +1,13 @@
+Beta 1.0 Relase: 26.02.2021
+
+Ich fügte den Tab "Minigame" hinzu. Ich kopierte das Minigame aus dem Internet und fügte es in den Quelltext ein. Ich löschte aller dings die "Window alert" funktion
+damit nicht jedes mal das Spiel unterbrochen wird. Leider habe ich noch keine andere möglichkeit gefunden den Spieler auf reset des counters hinzuweisen. Ausserdem
+machte ich die Liste "other nice games!"(css class "othergamesli"). Ich fürte die Datei "version.html" ein um die Version zu kennzeichnen. Die Datei ist nicht direkt über
+die Website erreichbar.
+
+
+Beta 1.1 Relase: //
+
+Ich fixte den Fehler dass bei der Minegameliste die Punkte HexGL und OnOff beide auf die Seite von HexGl führten. Ich fürte eine neue class ein "purpleglow" und wendete sie
+beim Titel der Minigameliste an. Ausserdem fügte ich das Spiel "Pac Man" in die Liste hinzu. Ich passte die Tittel aller seiten an (zb. von  FrissBrot zu Discord) und erstellte
+die Seite "errorpage.html". Ich desingte ein Avatar und machte die Class "roll". 

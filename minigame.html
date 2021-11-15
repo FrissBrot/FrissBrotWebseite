@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+<head>
+    <meta charset="UTF-8">
+    <title>Minigames</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Bilder\favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrissBrot</title>
+    <audio id="audiofile" preload="auto">
+      <source src="/sounds/new_message.mp3" />
+      <source src="/sounds/new_message.ogg" />
+      <source src="/sounds/new_message.wav" />
+    </audio>
+    <div class=flex>
+      <img src="Bilder\LogoBanner.png">
+    </div>
+</head>
+<body>
+  <div>
+    <ul class="flex Text headli headul">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="discord.html">Discord</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="minigame.html">Minigame<sup id=new> new</sup></a></li>
+    </ul>
+  </div>
+  <div class="game">
+      <div id="character"></div>
+      <div id="block"></div>
+  </div>
+  <p class="Text">Score: <span id="scoreSpan"></span></p>
+  <br>
+  <br>
+  <br>
+  <div>
+    <p class="Text purpleglow">Other nice games!</p>
+    <br>
+    <ol class="othergamesli">
+      <li><a target="_blank" href="http://hexgl.bkcore.com/play/">HexGL</a></li>
+      <li><a target="_blank" href="http://js13kgames.com/games/onoff/index.html">OnOff</a></li>
+      <li><a target="_blank" href="https://krunker.io/">Krunker.io</a></li>
+      <li><a target="_blank" href="https://www.adultswim.com/etcetera/elastic-man/">Elastic man</a></li>
+      <li><a target="_blank" href="https://www.google.com/logos/2010/pacman10-i.html">Pac Man</a></li>
+    </ol>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

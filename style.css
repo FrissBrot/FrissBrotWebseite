@@ -1,0 +1,198 @@
+body {
+  background-color: #302f30;
+}
+
+.Text{
+  color: White;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.Textgross{
+  color: White;
+  font-family: sans-serif;
+  font-size: 4em;
+  text-decoration: none;
+  animation-name: link;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.headli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.headli a:hover {
+  background-color: #111111;
+}
+.Bild{
+  width: 300px;
+}
+.Bild:hover{
+    width: 400px;
+}
+.Bildzoom {
+  animation-name: Bildzoomoutanimation;
+  animation-duration: 1s;
+}
+
+.Bildzoom:hover{
+  animation-name: Bildzoomanimation;
+  animation-duration: 1s;
+}
+@keyframes Bildzoomanimation {
+  from{
+    width: 300px;
+  }
+  to{
+    width: 400px;
+  }
+}
+
+@keyframes Bildzoomoutanimation {
+  from{
+    width: 400px;
+  }
+  to{
+    width: 300px;
+  }
+}
+.DiscordBild{
+  width: 1000px;
+  }
+
+  .flexright{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .flexleft{
+    display: flex;
+    justify-content: flex-flex-start;
+    align-items: center;
+  }
+  @keyframes link {
+    from{
+      color: White;
+    }
+    to{
+      color: #5e00ff;
+    }
+  }
+  .contacttabelle{
+    width:20%;
+    margin-top:80px;
+    margin-left:auto;
+    margin-right:auto;
+    border-color: #000
+  }
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.game{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+}
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position:relative;
+    top: 150px;
+}
+.animate{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+    animation: block 1s infinite linear;
+}
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -20px}
+}
+p{
+    text-align: center;
+}
+
+#new{
+  animation-name: new;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes new {
+  from{
+    color: white;
+  }
+  to{
+    color: red;
+  }
+}
+.othergamesli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.othergamesli a:hover {
+  color: #111111;
+}
+
+.purpleglow{
+  animation-name: link;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.red{
+  color: red;
+}
+
+.avatar{
+  width: 100px;
+  animation-name: roling;
+}
+
+@keyframes roling {
+  from{
+    color: white;
+  }
+  to{
+    color: red;
+  }
+}
